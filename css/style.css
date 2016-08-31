@@ -1,0 +1,1009 @@
+/* =======================================================
+                        Custom CSS
+======================================================= */
+
+ .navbar {
+    background: transparent !important;
+    border: none !important;
+    margin-bottom: 0px !important;
+}
+
+nav ul li a {
+    color: #fff !important;
+}
+
+ .navbar-default .navbar-nav>li>a {
+    color: #fff !important;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background: none;
+    color: #fce38a !important;
+    border-bottom: 3px solid #fce38a;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fce38a !important;
+    border-bottom: 3px solid #fce38a;
+    transition: color 1s;
+    -webkit-transition: color 1s;
+}
+
+/* Containers */
+#main-banner-container {
+    background: url("../images/main-banner.jpg") no-repeat center top /* UNCOMMENT AFTER THE SCREENSHOT fixed */;
+    margin-top: -53px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 800px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#main-banner-container a {
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+}
+
+#whatWeDo-container,
+#services-container,
+#whatweDo-container,
+#testimonials-container,
+#ourTeam-container,
+#galleryHead-container,
+#blogs-container {
+    background-color: #fff;
+}
+
+#ratings-container {
+    background-color: #95e1d3;
+}
+
+#allDevices-container {
+    background: url("../images/foralldevices-bg.jpg") no-repeat center top;
+    background-size: cover;
+}
+
+#testimonials-container1 {
+    background-color: #f8f8f8
+}
+
+#logos-container {
+    background-color: #f8f8f8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#logos-container img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#whatPeoplesay-container {
+    background: url("../images/happyclients-bg.jpg") no-repeat center top;
+    background-size: cover;
+}
+
+
+#map-container {
+    background: url("../images/map-bg.jpg") no-repeat center top;
+    background-size: cover;
+}
+
+#footer-container {
+    background-color: #f8f8f8;
+    padding: 50px 0 50px 0;
+}
+
+footer{
+    background-color: #f8f8f8;
+}
+
+footer .container {
+    border-top: 1px solid #ddd;
+    padding: 15px 0 15px 0;
+}
+
+.glyphicon-map-marker {
+    color: #f38181;
+    height: 20px;
+    width: 20px;
+}
+
+#map-container h3 {
+    color: #f38181;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.par-width {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutus-imgs {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.aboutus-imgs img {
+    padding-top: 20px;
+}
+
+.ratings {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+}
+
+#ratings-container span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.line-sep {
+    border-left: 1px solid rgba(255,255,255, 0.4);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.line-seplast {
+    border-left: 1px solid rgba(255,255,255, 0.4);
+    border-right: 1px solid rgba(255,255,255, 0.4);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.device-positioning {
+    position: relative;
+}
+
+.device-tablet {
+    position: relative;
+}
+
+.device-smartphone {
+    position: absolute;
+    bottom: -16%;
+    left: 56%;
+}
+
+.image-accordion-row {
+    padding-top: 30px;
+}
+
+.panel-title {
+    height: 30px;
+}
+
+.panel-heading {
+    background-color: #fff !important;
+}
+
+.panel-title-h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    text-transform: uppercase;
+    text-decoration: none;
+    vertical-align: sub;
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+
+.panel-body > p {
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.glyphicon-menu-down {
+    color: #cccccc;
+    margin-top: 7px;
+}
+
+.image-accordion-row img {
+    max-height: 300px;
+    width: auto;
+    margin-bottom: 20px !important;
+}
+
+.line-dash {
+    color: #f38181;
+    display: inline !important;
+}
+
+#testimonials-container h4 {
+    margin-top: 0;
+}
+
+#ourTeam-container img {
+    margin-top: 30px;
+}
+
+#ourTeam-container h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 9pt;
+    margin-top: 30px;
+}
+
+.team-post {
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    font-style: italic !important;
+}
+
+#logos-container .container {
+    height: 127px;
+    vertical-align: middle;
+}
+
+#blogs-container h5 {
+    margin-top: 15px;
+}
+
+#blogs-container > div > div > hr {
+    width: 70px;
+    border: 2px solid #f38181;
+}
+
+#blogs-container img {
+    position: relative;
+}
+
+.blog-datebox {
+    color: #fff;
+    width: 50px;
+    height: 65px;
+    background-color: #95e1d3;
+    position: absolute;
+    top: 35%;
+    left: -2%;
+}
+
+.blog-day {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    display: block;
+}
+
+.blog-month {
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.blog-fixer {
+    padding-top: 10px;
+}
+
+a.input-group-addon {
+    text-decoration: none;
+}
+
+a.input-group-addon:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer-container a {
+    text-decoration: none;
+}
+
+#map-container a {
+    text-decoration: none;
+    color: #f38181;
+}
+
+/* =======================================================
+                        Fonts
+======================================================= */
+
+body p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #999999;
+}
+
+h1, h2, h3, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Kaushan Script', cursive;
+    color: #333333 !important;
+    font-size: 25px;
+}
+
+h5 {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+#main-banner-container h1 {
+    color: #fff;
+    font-size: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.05em;
+}
+
+.main-h4 {
+    font-size: 48px;
+    color: #fff !important;
+}
+
+#main-banner-container hr {
+    width: 70px;
+    border: 2px solid #fff;
+}
+
+#services-container p {
+    margin-top: 0 !important;
+}
+
+.row-margin {
+    padding-top: 30px;
+}
+
+.row-2ndmargin {
+    padding-top: 30px;
+    border-top: 1px solid #dbdbdb;
+}
+
+#testimonials-container .caption p {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 13pt;
+}
+
+.footer-heading {
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: auto;
+    height: 32px !important;
+}
+
+#footer-container p span {
+    font-weight: bold;
+}
+
+.footer-par {
+    color: #333333;
+}
+
+footer p {
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bold;
+    color: #333333;
+}
+
+#footer-container a img {
+    margin: 0 0.3em;
+}
+
+#footer-container hr {
+    margin: 0 0 1em 0;
+}
+
+#footer-container .form-control,.input-group-addon {
+    border-radius: 0 !important;
+}
+
+#footer-container h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 9pt;
+    margin-top: 5px;
+}
+
+
+.follow {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #999999;
+    margin-right: 1em;
+}
+
+.social-icon {
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 1.5em;
+}
+
+.input-group-addon {
+    font-weight: bold;
+    font-size: 10pt;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: #95e1d3 !important;
+}
+
+#whatWeDo-container,
+#services-container,
+#whatweDo-container,
+#ourTeam-container,
+#logos-container,
+#galleryHead-container,
+#whatPeoplesay-container,
+#blogs-container,
+#map-container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#testimonials-container1,
+#testimonials-container {
+    padding-top: 20px;
+    padding-bottom: 50px; 
+}
+
+#whatWeDo-container hr,
+#services-container hr,
+#allDevices-container hr,
+#whatweDo-container hr,
+#ourTeam-container hr,
+#galleryHead-container hr,
+#whatPeoplesay-container hr,
+#map-container hr {
+    width: 70px;
+    border: 2px solid #f38181;
+}
+
+#allDevices-container {
+	padding-top: 70px;
+	padding-bottom: 0;
+}
+
+.gal-h4 .largGal {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fff !important;
+    text-align: center;
+    margin-top: 35%;
+    margin-bottom: auto;
+    
+}
+
+.gal-h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fff !important;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: auto;
+    
+}
+
+.gal-p {
+    color: #fff;
+    text-align: center;
+}
+
+/* =======================================================
+                Responsive 5 Columns Grid
+======================================================= */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+/* =======================================================
+                    Testimonials Slider
+======================================================= */
+.carousel-indicators.active {
+    background: #31708f;
+}
+
+.content {
+    margin-top:20px;
+}
+
+.adjust1 {
+    float:left;
+    width:100%;
+    margin-bottom:0;
+}
+
+.adjust2 {
+    margin:0;
+}
+
+.carousel-indicators li {
+    border :1px solid #ccc;
+}
+
+.carousel-control {
+    color:#31708f;
+    width:5%;
+}
+
+.carousel-control:hover, .carousel-control:focus {
+    color:#31708f;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+.media-object {
+    margin:auto;
+    margin-top:15%;
+}
+@media screen and (max-width: 768px) {
+    .media-object {
+        margin-top:0;
+    }
+}
+
+.testimonial-thumbnail .thumbnail {
+    border: none !important;
+}
+
+#testimonials-container1 .thumbnail1 {
+	background-color: transparent !important;
+}
+
+.caption p {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic !important;
+    font-size: 20px !important;
+    font-weight: lighter !important;
+}
+/* =======================================================
+                    Masonry Gallery
+======================================================= */
+
+      .gal-item {
+        width:  25%;
+        height: 100%;
+        float: left;
+      }
+
+      .gal-item.large {
+        width:  25%;
+        height: 100%;
+        float: left;
+      }
+
+
+/* ======================================================
+                        Mobile CSS
+====================================================== */
+
+
+@media only screen
+    and (min-width: 320px)
+    and (max-width: 800px) {
+    .line-sep {
+    border-bottom: 1px solid rgba(255,255,255, 0.4);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+    
+    #whatPeoplesay-container img {
+        margin-bottom: 5px;
+    }
+    
+    .testing-align {
+        text-align: center !important;
+    }
+  
+    .gal-h4.largGal {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fff !important;
+    text-align: center;
+    margin-top: 35%;
+    margin-bottom: auto;
+    
+}
+
+    .gal-h4 {
+        display: none !important;
+    }
+
+    .gal-p {
+        display: none !important;
+    }
+        
+    
+    #main-banner-container h1 {
+    font-size: 50px;
+    letter-spacing: 0.05em;
+}
+    
+    .blog-datebox {
+        display: none;
+    }
+        
+    #blogs-container h5 {
+        text-align: center;        
+    }
+        
+    .embed-responsive {
+        height: 360px !important;
+    }
+        
+    #footer-container img {
+	margin-left: auto !important;
+	margin-right: auto !important;	
+    }
+
+    #footer-container h5 {
+        text-align: center;
+    }
+        
+    #footer-container .follow {
+        display: block;
+        text-align: center;
+    }
+    
+        
+     /* =========== CSS Hamburger ============ */
+
+        .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: #fce38a;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #fce38a;
+    }
+
+}
+
+/* ======================================================
+                STORY ABOUT US CSS
+====================================================== */
+/* Effects applied on blogs-container images */
+/* Shadow */
+.hvr-shadow {
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
+    box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+
+
+/* ======================================================
+                Our Team CSS Image Hover
+====================================================== */
+/* Effects applied on MEET OUR TEAM images */
+
+
+.demo-3 {
+    position: relative;
+    /* width: auto; */
+    /* max-width: 380px; */
+    height: auto;
+    overflow: hidden;
+    /* float:left; */
+    /* margin-right:20px; */
+}
+.demo-3 figure {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    position: relative;
+    cursor: pointer;
+    /* margin-left:-50px */
+}
+.demo-3 figure img {
+    /* display: block; */
+    position: relative;
+    z-index: 10;
+    /* margin: -15px 0; */
+}
+.demo-3 figure figcaption {
+    /* display: block; */
+    position: absolute;
+    z-index: 5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.demo-3 figure h5 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+
+.demo-3 figure p {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.demo-3 figure figcaption {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 35% 10%;
+    background-color: #95e1d3;
+    text-align: center;
+    backface-visibility: hidden;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+.demo-3 figure img {
+    backface-visibility: hidden;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+.demo-3 figure:hover img,figure.hover img {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.demo-3 figure:hover figcaption,figure.hover figcaption {
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+    transform: rotateY(0);
+}
+
+
+/* ======================================================
+                Learn More Button
+====================================================== */
+/* Effect applied on the logo container */
+/* Float */
+.hvr-float {
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+
+/* Effect applied on the main-banner Learn More Button */
+/* Fade */ 
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #95e1d3;
+  color: white;
+  border: 2px solid #95e1d3 !important;
+}
+
+
+/* =======================================================
+                Back to Top - Modernizr
+======================================================= */
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(149, 225, 221);
+    background: rgba(149, 225, 221, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(149, 225, 221, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+
+
+
+
+/*----------------------------------------------------------------------------*\
+  Headhesive Specific Styles
+/*----------------------------------------------------------------------------*/
+
+/**
+ * Headhesive element clone
+ * > `clone` class for the cloned element:
+ *
+ * @example
+ * var options = {
+ *   classes {
+ *     clone: 'banner--clone';
+ *   }
+ * }
+ */
+.banner--clone {
+
+  /* Required styles */
+  position: fixed;
+  z-index: 30;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  /* Additional styles */
+  background: #f38181;
+
+  /* Translate -100% to move off screen */
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+
+  /* Animations */
+  -webkit-transition: all 300ms ease-in-out;
+     -moz-transition: all 300ms ease-in-out;
+          transition: all 300ms ease-in-out;
+
+}
+
+
+/**
+ * Headhesive stick
+ * > `stick` class for the cloned element:
+ *
+ * @example
+ * var options = {
+ *   classes {
+ *     stick: 'banner--stick';
+ *   }
+ * }
+ */
+.banner--stick {
+
+  /* Translate back to 0%; */
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+
+/**
+ * Headhesive unstick
+ * > `unstick` class for the cloned element:
+ *
+ * @example
+ * var options = {
+ *   classes {
+ *     unstick: 'banner--unstick';
+ *   }
+ * }
+ */
+.banner--unstick {
+  /* Not required to use, but could be useful to have */
+}
